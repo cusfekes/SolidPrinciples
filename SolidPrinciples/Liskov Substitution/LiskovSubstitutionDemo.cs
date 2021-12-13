@@ -11,8 +11,8 @@ namespace SolidPrinciples.Liskov_Substitution
             IFileReader readFile = new ReadonlyFile();
             readFile.ReadFile("C:\\test.txt");
 
-            IFileReader writeFileLiskov = new WritableFile();
-            writeFileLiskov.ReadFile("C:\\test.txt");
+            IFileReader writeFile_Liskov = new WritableFile();
+            writeFile_Liskov.ReadFile("C:\\test.txt");
         }
     }
 

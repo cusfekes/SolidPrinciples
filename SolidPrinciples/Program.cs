@@ -1,4 +1,6 @@
-﻿using SolidPrinciples.Liskov_Substitution;
+﻿using SolidPrinciples.DependencyInversion;
+using SolidPrinciples.InterfaceSegregation;
+using SolidPrinciples.Liskov_Substitution;
 using SolidPrinciples.OpenClosed;
 using SolidPrinciples.SingleResponsibility;
 
@@ -6,4 +8,8 @@ using SolidPrinciples.SingleResponsibility;
 
 //OpenClosedDemo.Main();
 
-LiskovSubstitutionDemo.Main();
+//LiskovSubstitutionDemo.Main();
+
+//InterfaceSegregationDemo.Main();
+
+DependencyInversionDemo.Main();
